@@ -4,10 +4,9 @@
 #include "Triangle.h"
 #include "Shape.h"
 
-Triangle::Triangle(std::string name, double base, double height) :triangleName(name), base(base), height(height)
-{
-	Shape(name);
-}
+using namespace std;
+
+Triangle::Triangle(string name, double base, double height) : Shape(name), base{base}, height{height} {}
 
 Triangle::~Triangle(){}
 

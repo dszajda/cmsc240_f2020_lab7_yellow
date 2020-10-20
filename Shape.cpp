@@ -5,7 +5,7 @@ Shape::Shape(std::string shapeName) :name(shapeName)  {}
 Shape::~Shape() {}
 
 virtual double getArea(){
-	return 0.0;
+	return 
 }
 
 virtual void print(){
