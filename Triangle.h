@@ -1,6 +1,6 @@
 #include "Shape.h"
 #ifndef __TRIANGLE_H__
-#define __TRAINGLE_H__
+#define __TRIANGLE_H__
 
 #include <string>
 
