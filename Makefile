@@ -19,7 +19,7 @@ Triangle.o: Triangle.cpp
 	$(CC) $(CCFLAGS) -c Triangle.cpp
 
 Circle.o: Circle.cpp
-	$(CC) $(CCFLAGS) -c Triangle.cpp
+	$(CC) $(CCFLAGS) -c Circle.cpp
 
 clean:
 	/bin/rm -f a.out $(OBJS) $(EXECS)
