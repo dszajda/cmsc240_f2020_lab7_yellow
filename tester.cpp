@@ -1,6 +1,7 @@
 #include "Shape.h"
 #include "Circle.h"
 #include "Triangle.h"
+#include "Rectangle.h"
 
 #include <iostream>
 
@@ -25,6 +26,12 @@ int main() {
     cout << "Triangle area: " << triangle1.getArea() << endl;
     cout << "Testing Triangle print()" << endl;
     triangle1.print();
+    
+    cout << "Testing Rectangle" << endl;
+    Rectangle rectangle1("Rectangle", 3, 3);
+    cout << "Rectangle area: " << rectangle1.getArea() << " [9]" << endl;
+    cout << "Testing Rectangle print()" << endl;
+    rectangle1.print();
 
 	return 0;
 
