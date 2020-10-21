@@ -1,14 +1,21 @@
 #ifndef __Shape_CPP__
 #define __Shape_CPP__
 
-Shape::Shape(std::string shapeName) :name(shapeName)  {}
+#include "Shape.h"
+#include <iostream>
+
+using namespace std;
+
+Shape::Shape(std::string shapeName) {
+	this->name = shapeName;
+}
 Shape::~Shape() {}
 
-virtual double getArea(){
+double getArea(){
 	return 0.0;
 }
 
-virtual void print(){
+void print(){
 	cout << "name: " << name << endl;
 }
 

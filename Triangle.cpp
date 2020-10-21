@@ -3,8 +3,7 @@
 
 #include "Triangle.h"
 #include "Shape.h"
-
-using namespace std;
+#include <iostream>
 
 Triangle::Triangle(string name, double base, double height) : Shape(name), base{base}, height{height} {}
 
