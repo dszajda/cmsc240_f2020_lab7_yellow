@@ -19,5 +19,7 @@ class Triangle : public Shape
 		double getArea();
 	
 		void print();
+		//virtual void print();
+		//virtual void print() = 0;
 };
 #endif
