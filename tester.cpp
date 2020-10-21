@@ -15,7 +15,7 @@ int main() {
     
     cout << "Testing Cirlce" << endl;
     Circle circle1("Circle", 5);
-    cout << "Circle area: " << circle1.getArea() << << endl;
+    cout << "Circle area: " << circle1.getArea() << endl;
     cout << "Testing Circle print()" << endl;
     circle1.print();
 
