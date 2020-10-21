@@ -11,11 +11,11 @@ Shape::Shape(std::string shapeName) {
 }
 Shape::~Shape() {}
 
-double getArea(){
+double Shape::getArea(){
 	return 0.0;
 }
 
-void print(){
+void Shape::print(){
 	cout << "name: " << name << endl;
 }
 

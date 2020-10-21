@@ -1,5 +1,5 @@
 EXECS = tester
-OBJS = Shape.o tester.o
+OBJS = Shape.o tester.o Triangle.o
 
 CC = g++
 CCFLAGS = -std=c++17 -Wall -g
@@ -15,6 +15,8 @@ Shape.o: Shape.cpp
 tester.o: tester.cpp
 	$(CC) $(CCFLAGS) -c tester.cpp
 
+Triangle.o: Triangle.cpp
+	$(CC) $(CCFLAGS) -c Triangle.cpp
 
 clean:
 	/bin/rm -f a.out $(OBJS) $(EXECS)
