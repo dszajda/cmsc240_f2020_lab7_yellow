@@ -2,6 +2,7 @@
 #define __CIRCLE_H__
 
 #include "Circle.h"
+#include "Shape.h"
 #include <iostream>
 
 using namespace std;
