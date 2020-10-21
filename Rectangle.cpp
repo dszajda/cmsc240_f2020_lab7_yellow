@@ -8,10 +8,10 @@
 
 Rectangle::Rectangle(string shapeName, double width, double height) : Shape(shapeName), width{width}, height{height} {}
 
-Rectangle::Rectangle() {}
+Rectangle::~Rectangle() {}
 
 double Rectangle::getArea(){
-	return (widht * height);
+	return (width * height);
 }
 
 void Rectangle::print(){
